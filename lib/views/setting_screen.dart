@@ -56,7 +56,7 @@ class _SettingScreenState extends State<SettingScreen> {
       body:  Column(
         children: [
           ListTile(
-            leading: CircleAvatar(
+            leading: const CircleAvatar(
       backgroundImage: NetworkImage("https://imgs.search.brave.com/0f5ltmeHSCFLq8l0lCEI80hF0kp3MV07l6CRfcdNGuk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzI3LzMxLzA3/LzM2MF9GXzIyNzMx/MDcwNF81WDBFQ0w3/cDBkV3pvU2NPTXdX/TnBrUmdQQUU5RUpn/OS5qcGc"),
     ),
             title:const Text(
@@ -65,7 +65,7 @@ class _SettingScreenState extends State<SettingScreen> {
                   fontWeight: FontWeight.bold, color: Colors.white),
             ) ,
             subtitle: Text('User not found',style: TextStyle(color: Colors.white.withOpacity(0.6)),),
-            trailing: Icon(Icons.qr_code,color: Color(0xFF0a5b56)),
+            trailing: const Icon(Icons.qr_code,color: Color(0xFF0a5b56)),
           ),
           Expanded(
 

@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:whatsapp/views/home_screen.dart';
 
@@ -22,8 +23,9 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
+    return  Scaffold(
+      backgroundColor: CupertinoColors.systemBlue.withOpacity(0.1),
+      body: const Center(
           child: Image(
         image: AssetImage("assets/images/logo.webp"),
        // color: Colors.blue,
