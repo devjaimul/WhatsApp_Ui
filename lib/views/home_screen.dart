@@ -160,7 +160,7 @@ class _HomeScreenState extends State<HomeScreen> {
           appBar: AppBar(
             backgroundColor: const Color(0xFF0a5b56),
             title: const Text(
-              'WhatsAppPP',
+              'WhatsAppP',
               style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
